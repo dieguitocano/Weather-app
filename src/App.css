@@ -36,6 +36,7 @@
   box-shadow: 0px 10px 10px 0 #0009;
   /*box-shadow: 1px 1px 7px 0 #0009;*/
   position: relative;
+  gap: 10%;
   
 }
 
@@ -44,6 +45,10 @@
   text-align: end;
   
 
+}
+
+.temp {
+  font-size: 40px;
 }
 
 .container2 {
@@ -83,5 +88,6 @@ button{
 }
 
 img {
-  width: 10px;
+  width: 150px;
+  
 }

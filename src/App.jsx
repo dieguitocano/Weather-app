@@ -78,13 +78,14 @@ function App() {
 
       
    
-       <div className='container1'>   
+       <div className='container1'> 
+          <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="" />  
          <p>{weather?.name}, {weather?.sys?.country}</p>
          <p> {days[numeroDiaSemana]} {hours %12}:{minutes} {amPm}</p>  
        </div>
        <div className='container2'>
              <ul>    
-               <li><a href="temp">Temp {degrees ? tempt?.celcius : tempt?.fahrenheit}</a></li>
+               <li><a className='temp' href=""> {degrees ? tempt?.celcius : tempt?.fahrenheit}</a></li>
                <li><a href="">Max  {degrees ? tempt?.celMax : tempt?.fahMax}</a></li>
                <li><a href="">Min    {degrees ? tempt?.celMin : tempt?.fahMin}</a></li>
                <li><a href="">Humidity    {weather?.main?.humidity}</a></li>
